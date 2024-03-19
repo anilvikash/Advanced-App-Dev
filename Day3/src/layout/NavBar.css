@@ -1,0 +1,120 @@
+/* NavBar.css */
+
+/* NavBar.css */
+
+.brand-logo {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+  margin-left: 130px;
+  color: #3a6cd7; /* Orange color for a retro look */
+  font-family: 'Arial Black', sans-serif; /* A bold and blocky font style */
+  text-transform: uppercase; /* Uppercase text for a vintage feel */
+  letter-spacing: 2px; /* Add some letter spacing for a retro effect */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add a subtle text shadow */
+}
+
+
+/* ... (previous styles) */
+
+
+
+
+.nav-contain {
+  background-image: url('D:\vjf-1\src\Asset\HD-wallpaper-dark-blue-texture-with-circles-blue-circles-texture-retro-texture-dark-creative-background-blue-circles-background.jpg');
+  background-color: rgb(107, 108, 108);
+  height: 10vh;
+  color: black;
+  /* Updated styles to align navbar at the top */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Ensure it's on top of other content */
+}
+
+.right-flow {
+  padding-right: 10px;
+  color: black;
+}
+
+.right {
+  margin-left: 1000px;
+  display: flex;
+  margin-top: -30px;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+
+/* Styles for linked buttons */
+.r1 {
+  padding: 7px ;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #eaebed;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-transform: uppercase;
+  color: #3860b8; /* Orange color for a retro look */
+  font-family: 'Arial Black', sans-serif; /* A bold and blocky font style */
+  text-transform: uppercase; /* Uppercase text for a vintage feel */
+  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add a subtle text shadow */
+}
+
+.r1:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Add a slight zoom effect on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Set the color for the navigation links */
+.r1,
+.r1:hover,
+.nav-link,
+.nav-link:hover {
+  color: black;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+
+
+
+@media (max-width: 768px) {
+  .brand-logo {
+    font-size: large;
+    margin: 10px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .nav-contain {
+    text-align: top;
+    background-color: rgb(168, 144, 120);
+  }
+  .right-flow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .right {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .r1 {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
