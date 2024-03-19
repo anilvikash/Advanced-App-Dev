@@ -1,0 +1,57 @@
+/* Styling for the JobList component */
+.job-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.job-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for each job item */
+.job-item {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.job-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.job-description {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.job-location {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #555;
+  font-weight: bold;
+}
+
+/* Styling for the "post Job" button */
+.search {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.search:hover {
+  background-color: #0056b3;
+}

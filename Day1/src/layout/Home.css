@@ -1,0 +1,26 @@
+/* Center the content horizontally and vertically */
+body {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("D:\vjf-1\src\Asset\soft-aesthetic-cei80uravrnl6ltm.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #a1a4a4;
+}
+
+/* Style for the "Welcome" text */
+.user {
+  padding-bottom: 500px;
+  margin-left: 10px;
+  font-size: x-large;
+  font-weight: bolder;
+  color:rgb(7, 7, 7);
+  font-size: xx-large;
+}
+
+

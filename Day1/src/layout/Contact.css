@@ -1,0 +1,57 @@
+/* Contact.css */
+
+.background-image {
+    background-image: url('D:\vjf-1\src\Asset\pexels-negative-space-33999.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 230VH;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .continue-btn {
+    background-color: #ce8181;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 40px;
+    margin-top:30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .continue-btn:hover {
+    background-color: #b16262;
+  }
+  
+  .content-column {
+    width: 50%;
+    float: left;
+    padding: 55px;
+    padding-left: 20px;
+  }
+  
+  /* Header styles */
+  h2 {
+    color: #000;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+  }
+  
+  /* Paragraph styles */
+  p {
+    color: #333;
+    font-size: 18px;
+    line-height: 2; /* Adjust the line height as needed */
+  }
+  .ph{
+    margin-top: 40px;
+  }
+  
