@@ -1,0 +1,57 @@
+.footer {
+  background-color: #d2c1c1;
+  color: rgb(6, 6, 6);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0px 0px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  
+  padding: 5px 5px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: rgb(219, 26, 26);
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+/* Footer link styles */
+.footer-links a {
+  color: #333; /* Link color */
+  text-decoration: none; /* Remove underlines */
+  font-size: 16px; /* Font size */
+  margin: 5px 0; /* Add spacing between links */
+  display: block; /* Make each link a block element */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Footer link hover effect */
+.footer-links a:hover {
+  color: #007bff; /* Change link color on hover */
+}

@@ -1,0 +1,124 @@
+/* Search container */
+.search-container {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Style for the search bar */
+.search-bar {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the input field in the search bar */
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: none; /* Remove the white background */
+}
+
+/* Style for the "Search" button in the search bar */
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the "Back" button */
+.continue-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Style for the job container */
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style for each job item */
+.job-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* Set a fixed width for each job item */
+  box-shadow: 0 2px 4px rgba(196, 95, 95, 0.1);
+}
+
+/* Style for job title */
+.job-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style for job description */
+.job-item p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+/* Style for job location */
+.job-item p:last-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Style for the saved jobs container */
+.saved-jobs-container {
+  margin-top: 20px;
+  
+}
+.saved-jobs-container h2 {
+  background-color: #f3f3f4; /* Background color for the box */
+  color: rgb(3, 3, 3); /* Text color is white */
+  padding: 10px; /* Add padding to create spacing between text and box */
+}
+
+/* Style for saved job items */
+.saved-job-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px; /* Set a fixed width for each saved job item */
+  box-shadow: 0 2px 4px rgba(196, 95, 95, 0.1);
+}
+
+/* Style for saved job title */
+.saved-job-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style for saved job description */
+.saved-job-item p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+/* Style for saved job location */
+.saved-job-item p:last-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
