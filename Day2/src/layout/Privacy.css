@@ -1,0 +1,54 @@
+/* Policy.css */
+
+/* Apply styles to the policy container */
+.policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the headings */
+  .policy-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .policy-container h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the paragraphs */
+  .policy-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for unordered lists */
+  .policy-container ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .policy-container ul li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Style for the effective date */
+  .policy-container p:last-child {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Apply styles to the footer */
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+  }
+  

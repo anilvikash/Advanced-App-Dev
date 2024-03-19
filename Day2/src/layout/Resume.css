@@ -1,0 +1,71 @@
+/* Resume.css */
+
+/* Main container */
+.resume-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.resume-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form container */
+.resume-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Form fields */
+.resume-form div {
+  flex: 1;
+  margin-bottom: 15px;
+}
+
+.resume-form label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px; /* Increase the font size */
+}
+
+.resume-form input[type="text"],
+.resume-form input[type="email"],
+.resume-form textarea {
+  width: 100%;
+  padding: 15px; /* Increase the padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: none;
+  font-size: 18px; /* Increase the font size */
+}
+
+/* Generate Resume button */
+.resume-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px; /* Increase the padding */
+  font-size: 20px; /* Increase the font size */
+  cursor: pointer;
+}
+
+/* Back link */
+.resume-form a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 20px; /* Increase the font size */
+}

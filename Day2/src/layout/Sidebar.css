@@ -1,0 +1,59 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 12px; /* Adjust the width as needed */
+  height: 160%;
+  background-image: url('D:\vjf-1\src\Asset\HD-wallpaper-dark-blue-texture-with-circles-blue-circles-texture-retro-texture-dark-creative-background-blue-circles-background.jpg');
+  background-color: #f1ebeb;
+  color: #000;
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  overflow-y: auto;
+  transition: width 0.3s ease-in-out; /* Add a smooth transition effect for width */
+  z-index: 99; /* Ensure the sidebar is on top of other content */
+}
+
+.sidebar.active {
+  width: 120px; /* Adjust the collapsed width as needed */
+}
+
+.sidebar-header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sidebar h2 {
+  margin: 0;
+  color: #000;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  padding: 50px 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sidebar-menu li:hover {
+  background-color: #3b6688;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 1px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+
+.close-btn:hover {
+  color: #2c2828;
+}
+
